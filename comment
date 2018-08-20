@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo comment1
+: '
+date
+date
+date
+date
+date
+date
+date
+date
+'
+
+
+echo comment2
+: <<'COMMENT'
+date
+date
+date
+date
+date
+date
+date
+date
+COMMENT
